@@ -1,7 +1,7 @@
 * {
 	box-sizing: border-box;
 }
-button:focus {
+button:focus, input:focus {
 	outline: none;
 }
 a:focus {
@@ -36,13 +36,24 @@ html {
 	padding-top: 5rem;
 }
 .item {
-	margin-bottom: 3.5rem;
+	width: 5rem;
+	display: block;
+	margin:0 auto;
+	margin-bottom: 2rem;
+	height: 5rem;
 }
-.item img {
-	width: 1.2rem;
+
+.item-1 {
+	background: url(https://svgshare.com/i/5Nk.svg) no-repeat center center;
+	background-size: 1.2rem;
 }
-.item-1 img {
-	width: 1.1rem;
+.item-2 {
+	background: url(https://svgshare.com/i/5M0.svg) no-repeat center center;
+	background-size: 1.4rem;
+}
+.item-3 {
+	background: url(https://svgshare.com/i/5Nw.svg) no-repeat center center;
+	background-size: 1.4rem;
 }
 .in {
 	position: absolute;
@@ -359,6 +370,7 @@ transform: translateX(-50%) translateY(-50%) rotate(-45deg);
 	padding-top: 3.5rem;
 	box-shadow: 0px 0px 25px 0px rgba(219, 219, 219, 0.45);
 	min-height: 100vh;
+	z-index: 4;
 }
 .photo-product {
 	text-align: center;
@@ -421,7 +433,7 @@ transform: translateX(-50%) translateY(-50%) rotate(-45deg);
 	margin-bottom: 2rem;
 	
 	text-transform: uppercase;
-	font-size: 1.8rem;
+	font-size: 2.8rem;
 }
 .offer-text h3 span {
 	color: #0023ff;
@@ -431,8 +443,154 @@ transform: translateX(-50%) translateY(-50%) rotate(-45deg);
 	font-size: 1rem;
 	line-height: 2;
 	margin-bottom: 3rem;
+}
+.cost {
+	display: inline-block;
+	width: 35%;
+}
+.cost-head {
+	text-transform: uppercase;
+	display: block;
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+.product-price {
+	font-size: 2rem;
+	font-weight: 900;
+	color:#0023ff;
+	vertical-align: middle;
+}
+.cost span s {
+	vertical-align: middle;
+	margin-left: .9rem;
+	font-size: 1rem;
+	font-weight: 900;
+}
+.quantity {
+	vertical-align: top;
+	display: inline-block;
+}
+.quantity-head {
+	text-transform: uppercase;
+	display: block;
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+.quantity-number {
+	width: 4rem;
+	padding: .2rem;
+	padding-left: 1rem;
+	border-radius: 3rem;
+	border:none;
+	font-weight: 900;
+	font-size: 1.3rem;
+}
+.card-btn {
+	display: inline-block;
+	margin-left: 2rem;
+}
+.add-btn {
+	padding: .7rem 2rem;
+	border-radius: 50px;
+	border:none;
+	background-color: #0023ff;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: .7rem;
+}
+.recomended {
+	width: 57.6%;
+	background-color: #fff;
+	height: 15rem;
+	position: absolute;
+	margin-left: -5%;
+	bottom: 0;
+	z-index: 1;
+}
+.recomended-head {
+	position: absolute;
+	text-transform: uppercase;
+	top: 50%;
+	font-size: 1.5rem;
+	transform-origin: 50%;
+	color: rgba(0, 0, 0, .2);
+	transform: translateY(-50%) translateX(-10%) rotate(-90deg);
+}
+.recomended-good {
+	height: 100%;
+	margin-left: 6rem;
+	padding:1rem;
+	padding-left: 1rem;
+	display: inline-block;
+	width: 22%;
+}
+.recomended-good img {
+	width: 10rem;
+	display: block;
+	margin:0 auto;
+}
+.recomended-good h4 {
+	text-transform: uppercase;
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
 
-
+/*Search-block*/
+.search-block:target {
+	padding-top: 14rem;
+	padding-left: 10rem;
+	position: fixed;
+	z-index: 4;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	min-height: 45rem;
+	background-color: rgba(255,255,255,0.95);
+}
+.input-search {
+	font-family: 'Lato', sans-serif;
+	border:none;
+	border-bottom: 2px solid rgba(0,0,0,.1);
+	width: 70%;
+	background-color: transparent;
+	height: 3rem;
+	padding:3rem;
+	padding-left: 0;
+	font-size: 3rem;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.search-close {
+	text-decoration: none;
+	font-size: 3rem;
+	color: rgba(0,0,0,.5);
+	vertical-align: middle;
+}
+.help-text {
+	font-family: 'Lato', sans-serif;
+	color: rgba(0,0,0,.4);
+	margin-top: 1rem;
+}
+.search-result {
+	margin-left: 3rem;
+}
+.resolt-product {
+	display: inline-block;
+	vertical-align: middle;
+	width: 55%;
+}
+.resolt-product img {
+	vertical-align: middle;
+}
+.resolt-product span {
+	vertical-align: middle;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-family: 'Lato', sans-serif;
+	font-size: 2rem;
+	margin-left: 1rem;
 }
 
 
