@@ -1,0 +1,404 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-size: 10px;
+}
+.main-header {
+	width: 100%;
+	height: 100vh;
+	background: url(https://image.ibb.co/dFXYhc/Backround_Image.png) no-repeat center;
+	background-size: cover;
+}
+.container  {
+	width: 70%;
+	margin: 0 auto;
+}
+.main-header .container {
+	padding-top: 7rem;
+}
+.logo {
+	float: left;
+}
+.logo img {
+	width: 2.5rem;
+	vertical-align: middle;
+	margin-right: 1rem;
+}
+.logo span {
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.4rem;
+	vertical-align: middle;
+	padding-right: .5rem;
+}
+.archi {
+	font-weight: 600;
+}
+.next {
+	font-weight: 300;
+}
+.main-navigation {
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 39rem;
+	text-transform: uppercase;
+}
+.main-navigation ul li {
+	padding-right: 3rem;
+	padding-top: .5rem;
+	display: inline-block;
+}
+.main-navigation ul li:nth-child(5) {
+	padding-right: 0	
+}
+.main-navigation ul li a {
+	font-weight: 400;
+	color: #fff;
+	text-decoration: none;
+	font-size: .9rem;
+}
+.main-navigation ul li a:hover {
+	border-bottom: 2px solid #fff;
+}
+.slogan {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	padding-top: 9rem;
+	color: #fff;
+	line-height: 1.8;
+	text-transform: uppercase;
+	font-size: 2.5rem;
+}
+.slogan span {
+	font-weight: 800;
+}
+.welcome-main {
+	font-family: 'Raleway', sans-serif;
+	width: 100%;
+	height: 135vh;
+	background-color: #f5f5f5;
+}
+.welcome {
+	display: inline-block;
+	width: 58%;
+}
+.welcome-main h2 {	
+	width: 20%;
+	color: #0169b4;
+	font-size: 2.5rem;
+	font-weight: 500;
+	padding-top: 37rem;
+	padding-bottom: 2rem;
+}
+.welcome-text {		
+	margin-right: 10rem;
+	color: #6f6f6f;
+	width: 80%;
+	min-height: 13rem;
+	line-height: 2rem;
+}
+.welcome-img {	
+	display: inline-block;
+	width: 30rem;
+	min-height: 20rem;
+	background-color: #999999;	
+}
+.btn {	
+	display: inline-block;
+	color: #878787;
+	text-decoration: none;
+	padding: 1rem 2.5rem;
+	border: 2px solid #cccccc;
+	border-radius:50px;
+}
+.btn:hover {
+	border:2px solid #c8dfef;	
+	background-color: #0169b4;
+	color: #fff;
+}
+.tittle {
+	display: inline-block;
+	color: #0169b4;
+	font-size: 2.5rem;
+	font-weight: 500;
+	padding-top: 12rem;
+}
+.spheres-main {
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+}
+.spheres-main .container {
+	position: absolute;
+	top: -14rem;
+	left: 15.5rem;
+}
+.spheres {		
+	background-color: #fff;
+	display: inline-block;
+	width: 31%;
+	height: 34rem;
+}
+.spheres span {
+	padding-top: 1.8rem;
+	color: #666;
+	font-weight: 600;
+	font-size: 1.7rem;
+	display: block;
+	text-align: center;
+	line-height: 2rem;
+}
+.spheres p {
+	padding-top: 2rem;
+	color: #878787;
+	font-weight: 500;
+	font-size: 1rem;	
+	text-align: center;
+	line-height: 1.9rem;
+}
+.item-1 .btn {
+	position: absolute;
+	top: 28rem;
+	left: 6rem;
+}
+.item-2 .btn {
+	position: absolute;
+	top: 28rem;
+	left: 31.5rem;
+}
+.item-3 .btn {
+	position: absolute;
+	top: 28rem;
+	left: 56rem;
+}
+.item-1,
+.item-2 {
+	margin-right: 2.2rem;
+}
+.spheres img {	
+	padding-top: 3rem;
+	padding-left: 9rem;	
+	font-size: 1rem;
+}
+.projects {
+	width: 100%;
+	height: 25rem;
+	background-color: #999999;
+}
+.solution {
+	font-family: 'Raleway', sans-serif;
+	width: 100%;
+	height: 100vh;
+	background-color: #f5f5f5;
+}
+.solution h2 {
+	width: 20%;
+	color: #0169b4;
+	font-size: 2.5rem;
+	font-weight: 500;
+	padding-top: 13rem;
+	padding-bottom: 5rem;
+}
+.solution-item {
+	display: block;
+	font-size: 1.5rem;
+	color: #333;
+	font-weight: 500;
+	padding-bottom: 1.5rem;
+}
+.solution p {
+	width: 75%;
+	color: #a3a3a3;
+	font-weight: 500;
+	line-height: 2;
+	padding-bottom: 5rem;
+}
+.solution-left,
+.solution-right {
+	display: inline-block;
+	width: 45%;
+}
+.solution-left {
+	margin-right: 7rem;
+}
+.quote {	
+	width: 100%;
+	height: 30rem;
+}
+.quote-text {	
+	padding-top: 10rem;
+	width: 50%;
+	float: left;
+	font-family: 'Raleway', sans-serif;
+	padding-left: 15%;
+}
+.quote-text h2 {	
+	color: #0169b4;
+	font-size: 2.5rem;
+	font-weight: 500;	
+	padding-bottom: 3rem;
+}
+.quote-text p {		
+	display: inline-block;
+	line-height: 2;
+	width: 70%;	
+	color: #333;
+	font-weight: 500;
+}
+.quote-text p span {
+	font-weight: 600;
+}
+.quote-img {
+	width: 50%;
+	float:right;
+	height: 30rem;
+	background-color: #999;
+}
+.news {
+	font-family: 'Raleway', sans-serif;
+	width: 100%;
+	height: 100vh;
+	background-color: #f5f5f5;
+}
+.news h2 {
+	width: 30%;
+	color: #0169b4;
+	font-size: 2.5rem;
+	font-weight: 500;
+	padding-top: 12rem;
+	padding-bottom: 5rem;
+}
+.date,
+.news-info {
+	display: inline-block;
+}
+.date {
+	vertical-align: top;
+	width: 15%;
+	color: #ccc;
+	font-size: 3rem;
+}
+.date span {
+	padding-top: 0.3rem;
+	display: block;
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+.news-info {	
+	width: 70%;
+	font-size: 1.4rem;
+	padding-top: .7rem;
+	padding-left: 1rem;
+}
+.text {
+	color: #878787;
+	font-weight: 500;
+	line-height: 1.8;
+	padding-top: 2.5rem;
+	padding-bottom: 3.5rem;
+}
+.news-item-1,
+.news-item-2,
+.news-item-3 {
+	display: inline-block;
+	width: 29%;
+}
+.news-item-1,
+.news-item-2 {
+	margin-right: 2.5rem;
+}
+.footer {
+	position: relative;
+	width: 100%;
+	height: 35rem;
+	background: url(https://image.ibb.co/gmBs8H/footer_bg.png) no-repeat center center;
+}
+.contacts  {
+	width: 60%;
+	margin: 0 auto;
+	height: 24rem;
+}
+.icons {
+	font-family: 'Montserrat', sans-serif;
+	position: relative;	
+	margin-top: 8rem;
+	float:left;
+	width: 4rem;
+	height: 4rem;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	margin-left: 14rem;
+}
+.address {
+	margin-left: 3rem;	
+}
+.contacts .fa {
+	position: absolute;
+	font-size: 2rem;
+	color:#fff;
+}
+.fa-map-marker {	
+	left: 1.3rem;
+	top: .9rem;
+}
+.fa-envelope-o {
+	left: .9rem;
+	top: .8rem;
+}
+.fa-mobile {
+	left: 1.45rem;
+	top: .85rem;
+}
+.fa-fax {
+	left: .85rem;
+	top: .85rem;
+}
+.icon-descrb {
+	position: absolute;
+	display: block;
+	width: 13rem;
+	color: #fff;
+	font-weight: 300;
+	left: -3.6rem;
+	top: 5rem;
+	font-size: .9rem;
+}
+.icon-descrb-4 {
+	left: -2.6rem;
+}
+.social {	
+	width: 30%;
+	height: 3rem;
+	margin: 0rem auto;
+}
+.social .fa {
+	font-size: 2rem;
+	color:#fff;
+}
+.fa-facebook {
+	margin-left: 5rem;
+}
+.fa-facebook,
+.fa-twitter,
+.fa-pinterest {
+	margin-right: 4rem;
+}
+.footer-img {
+	position: absolute;
+	width: 9rem;
+	height: 3rem;
+	background: url(https://svgshare.com/i/5da.svg) no-repeat;
+	background-size: contain;
+	top: 32rem;
+	left: 47rem;
+}
+.fa-angle-up {
+	position: absolute;
+	font-size: 2rem;
+	color: #A82D91;
+	top: 32.4rem;
+	left: 50.7rem;
+}
+
+
+
