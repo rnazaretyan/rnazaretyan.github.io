@@ -1,0 +1,21 @@
+body {	
+	background-color: #fff;
+}
+.row {
+	line-height: 1.2;
+	padding-top: 150px;
+	font-family: 'Arvo', serif;	
+	color: #3b3f6a;
+	font-size: 24px; 
+}
+.col-md-6 {
+	text-align: center;
+}
+.text-center {
+	font-size: 18px;
+	text-align: center;
+}
+.col-md-3,
+.col-sm-6 {
+	margin-bottom: 50px;
+}
