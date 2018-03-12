@@ -1,0 +1,23 @@
+.main {
+	width: 70%;
+	margin:0 auto;
+}
+.modal-target {
+	width: 15%;
+	height: 100vh;
+	background-color: #aeaeae;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.modal-target:target {
+	display: block;
+}
+.modal-target a {
+	position: absolute;
+	top: 10px;
+	left: 175px;
+	text-decoration: none;
+	color: #f3f3f3;
+}
