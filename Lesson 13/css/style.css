@@ -1,0 +1,150 @@
+html {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+.describ {	
+	display: flex;
+	width: 75%;
+	margin: 0 auto;
+	justify-content: space-between;
+	text-align: center;
+	font-weight: 900;
+}
+.describ span {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	display: inline-block;
+	padding: 7px 10px;
+	border: 1.5px solid black;
+	border-radius: 8px;
+	margin-top: 3px;
+}
+.describ p:first-child {
+	padding-top: 8px;
+}
+.nav {
+	background-color: #292d30;
+	color: #fff;	
+	margin: 0 auto;
+}
+.nav-list {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	height: 70px;
+	align-items: center;	
+}
+.nav-list li {
+	padding-right: 40px;
+	font-size: 20px;
+	font-weight: 300;
+}
+.nav-list li:last-child {
+	padding-right: 0;
+}
+.header-main {
+	color: #fff;
+	padding-top: 200px;
+	text-align: center;
+	height: 800px;
+	background-image: url(../img/header-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.item-1 {
+	font-size: 60px;
+	opacity: .9;
+	font-weight: 100;
+	text-transform: uppercase;
+	margin: 0;
+}
+.item-2 {
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 700;
+	margin-top: 8px;
+}
+.item-3 {
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 300;
+	margin-bottom: 55px;
+}
+.item-4 {
+	font-size: 16px;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+.item-5 {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 18px;
+	margin: 0 auto;
+	width: 230px;
+	padding: 10px 0px;
+	background-color: #059feb;
+	border-radius: 40px;
+	margin-bottom: 200px;	
+}
+.header-main a {
+	color: #fff;
+	text-decoration: none;
+}
+.item-6 {
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+.container {
+	text-align: center;
+}
+.container p:first-child {
+	margin-top: 55px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 26px;
+}
+.container img {
+	width: 200px;
+	height: 5px;
+}
+.content-text {
+	width: 40%;
+	margin: 20px auto;
+}
+.main-content {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	margin-top: 70px;
+
+}
+.content-item {
+	width: 20%;
+}
+.content-item img {
+	width: 130px;
+}
+.content-item-2 img {
+	width: 100px;
+}
+.content-item-4 img {
+	width: 160px;
+}
+.normal-text {
+	font-size: 21px;
+	font-weight: 500;
+}
+.small-text {
+	font-size: 14px;
+}
+.content-item-3 .normal-text {
+	margin-bottom: 18px;
+}
