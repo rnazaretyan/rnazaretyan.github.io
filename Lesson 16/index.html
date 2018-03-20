@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lesson 16</title>
+	<link rel="stylesheet" href="css/style.css">		
+</head>
+<body>
+	<div class="wrap">
+    <div class="box">
+    <a href="#" class="modal-open">Закрыть</a>
+  </div>
+	<a class="modal-link" href="#modal">Ссылка</a>  
+  </div>
+
+
+<script
+  src="http://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+  <script>
+  	$(document).ready(function(){
+  		$(".modal-link").click(function(){
+        $(".box").addClass("modal");
+      });
+      $(".modal-open").click(function(){
+        $(".box").removeClass("modal");
+      });
+	});  	  	
+  </script>
+</html>
