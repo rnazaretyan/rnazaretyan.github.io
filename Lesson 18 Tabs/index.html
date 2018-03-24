@@ -51,8 +51,20 @@
 			
 	});
 		$(".tab-1").click(function(){
-			$(".tab-1").toggleClass("target");		
-		});			
+			
+			$("[class != tab-1]").removeClass("target");
+			$(".tab-1").addClass("target");				
+		});
+		$(".tab-2").click(function(){
+			
+			$("[class != tab-2]").removeClass("target");
+			$(".tab-2").addClass("target");				
+		});	
+		$(".tab-3").click(function(){
+			
+			$("[class != tab-3]").removeClass("target");
+			$(".tab-3").addClass("target");				
+		});	
 	});
 </script>
 </body>
