@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Lesson 18</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="main">
+	<div class="tabs-pannel">
+		<div class="tabs">
+			<div data-target="tab-content-1" class="tab tab-1"><span>Вопросы</span></div>
+			<div data-target="tab-content-2" class="tab tab-2"><span>Жалоба</span></div>
+			<div data-target="tab-content-3" class="tab tab-3"><span>Регистрация</span></div>
+		</div>
+		<div class="tab-contents">
+			<div class="tab-content tab-content-1">
+				<div class="login-pannel">
+					<p>имя</p>
+					<div class="input"></div>
+					<p>email</p>
+					<div class="input"></div>
+					<p>тема сообщения</p>
+					<div class="input"></div>
+				</div>
+				<div class="text-pannel">
+					<p>сообщение</p>
+					<div class="input-big"></div>					
+				</div>
+			</div>
+			<div class="tab-content tab-content-2">
+				<p>Содержимое вкладки жалоба</p>
+			</div>
+			<div class="tab-content tab-content-3">
+				<p>Содержимое вкладки регистрация</p>
+			</div>
+		</div>
+		<div class="btn">отправить сообщение</div>
+	</div>
+	</div>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script>
+	$(document).ready(function(){
+	var tab = $(".tab");
+			tab.click(function(){		
+		var target = $(this).attr("data-target");				
+			$(".tab-content").hide();
+			$("." + target).show();
+			
+	});
+		$(".tab-1").click(function(){
+			$(".tab-1").toggleClass("target");		
+		});			
+	});
+</script>
+</body>
+</html>
