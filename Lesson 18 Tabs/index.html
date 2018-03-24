@@ -47,21 +47,17 @@
 			tab.click(function(){		
 		var target = $(this).attr("data-target");				
 			$(".tab-content").hide();
-			$("." + target).show();
-			
+			$("." + target).show();			
 	});
-		$(".tab-1").click(function(){
-			
+		$(".tab-1").click(function(){			
 			$("[class != tab-1]").removeClass("target");
 			$(".tab-1").addClass("target");				
 		});
-		$(".tab-2").click(function(){
-			
+		$(".tab-2").click(function(){			
 			$("[class != tab-2]").removeClass("target");
 			$(".tab-2").addClass("target");				
 		});	
-		$(".tab-3").click(function(){
-			
+		$(".tab-3").click(function(){			
 			$("[class != tab-3]").removeClass("target");
 			$(".tab-3").addClass("target");				
 		});	
