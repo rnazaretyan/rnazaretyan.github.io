@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Lesson 18 Accordeon</title>
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">	
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>ответы на вопросы</h1>
+			<h2>которые нам задают чаще всего</h2>
+		</header>
+		<div class="tab"><a class="link" href="#content-1">Сколько времени может занять быстрая уборка 3-х комнатной квартиры?</a></div>
+			<p class="content" id="content-1">Быстрая уборка трехкомнатной квартиры, которая включает в себя мытье полов, протирку пыли и зеркал занимает около 3 часов. Но конечно, много зависит от степени загрязенностии заставленности комнат. </p>
+			
+		<div class="tab"><a class="link" href="#content-2">Сколько времени может занять быстрая уборка 3-х комнатной квартиры?</a></div>
+			<p class="content" id="content-2">Быстрая уборка трехкомнатной квартиры, которая включает в себя мытье полов, протирку пыли и зеркал занимает около 3 часов. Но конечно, много зависит от степени загрязенностии заставленности комнат.</p>
+		
+		<div class="tab"><a class="link" href="#content-3">Сколько времени может занять быстрая уборка 3-х комнатной квартиры?</a></div>
+			<p class="content" id="content-3">Быстрая уборка трехкомнатной квартиры, которая включает в себя мытье полов, протирку пыли и зеркал занимает около 3 часов. Но конечно, много зависит от степени загрязенностии заставленности комнат.</p>
+		
+	</div>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			var tab = $(".link");
+			$("p").not(":first").hide();
+			tab.click(function() {
+				var target = $(this).attr("href");
+				$(".content").hide();
+				$(target).show();
+			});
+		});
+	</script>
+</body>
+</html>
