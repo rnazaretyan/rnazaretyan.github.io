@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Lesson 19</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:700|Ubuntu:400,500&amp;subset=cyrillic" rel="stylesheet">	
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="main">
+			<div class="picture"></div>
+			<div class="content">
+				<p class="main-text">Сохрани свой аккаунт</p>
+				<p class="text">Получи бесплатно неограниченное количество <br>
+				форм, вопросов и ответов.</p>
+				<form id="form" action="thanks.html">
+					<div class="name"><input type="text" name="name" required placeholder="Имя или никнейм"></div>
+					<div class="email"><input type="email" name="email"  placeholder="Email"></div>
+					<div class="password"><input type="password" name="password" placeholder="Пароль"></div>
+					<button class="btn" type="submit">Сохранить</button>
+				</form>				
+				<p class="remember">Уже есть аккаунт?<a href="#">Войти</a></p>
+			</div>
+		</div>
+	</div>
+	
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script>
+		$("#form").validate({
+			rules:{
+				name: {
+					required: true,
+					minlength: 3
+				},
+				email: {
+					required: true,
+					minlength: 3
+				}
+			},
+			messages: {
+				name: {
+					required: "Введите Имя или Никнейм",
+					minlength: "Имя должно состоять как минимум из 3-х символов"
+				},
+				email: {
+					required: "Введите Ваш Email",
+					email: "Не соблюден формат E-mail"
+				}
+			}
+		});
+	</script>
+</body>
+</html>
