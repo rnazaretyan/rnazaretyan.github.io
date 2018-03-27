@@ -63,6 +63,7 @@ body {
 	border: 1px solid #cbd5de;
 	border-radius: 4px;
 	background-color: #fff;
+  vertical-align: top;
 }
 .tab:hover {
 	cursor: pointer;
@@ -72,6 +73,7 @@ body {
 	display: none;
 }
 .btn {
+  cursor:pointer;
 	font-weight: 700;
 	margin-top: 20px;
 	text-transform: uppercase;
