@@ -12,10 +12,16 @@ body {
 	text-align: center;
 }
 .text-center {
+	padding-top: 10px;
 	font-size: 18px;
+	text-align: center;
+}
+.pic-center {
 	text-align: center;
 }
 .col-md-3,
 .col-sm-6 {
-	margin-bottom: 50px;
+	margin-bottom: 	10px;
 }
+
+
