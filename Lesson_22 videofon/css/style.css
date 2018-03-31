@@ -1,0 +1,77 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+section {
+	height: 100vh;
+	color: #fff;
+	text-align: center;
+}
+.descr {
+	margin: 0;
+	padding-top: 80px;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+.heading {
+	font-size: 44px;
+	font-weight: 400;
+	margin-bottom: 25px;
+}
+.slogan {
+	font-weight: 300;
+}
+.info {
+	margin-top: 450px;
+}
+.info span {
+	color: #1fb899;
+}
+.navigation {
+	display: flex;	
+	justify-content: space-around;
+}
+ul {
+	display: flex;
+	list-style: none;
+	margin: 0;	
+}
+li {
+	padding: 20px 20px;
+	position: relative;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+li:hover {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.first::before {
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: -75px;
+	width: 68px;
+	height: 34px;
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+
+}
+.fa-lg {
+	cursor: pointer;
+	padding: 20px 9px;
+
+}
+.fa-facebook {
+	color: #3b5998;
+}
+.fa-twitter {
+	color: #00aced;
+}
+.social img {
+	cursor: pointer;
+}
