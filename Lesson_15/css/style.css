@@ -1,0 +1,380 @@
+	@font-face {
+    font-family: 'P22 Underground CY Pro';
+    src: url('../fonts/P22UndergroundCYPro-Book.eot');
+    src: url('../fonts/P22UndergroundCYPro-Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/P22UndergroundCYPro-Book.woff2') format('woff2'),
+        url('../fonts/P22UndergroundCYPro-Book.woff') format('woff'),
+        url('../fonts/P22UndergroundCYPro-Book.ttf') format('truetype'),
+        url('../fonts/P22UndergroundCYPro-Book.svg#P22UndergroundCYPro-Book') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'P22 Underground CY Pro';
+    src: url('../fonts/P22UndergroundCYPro-Heavy.eot');
+    src: url('../fonts/P22UndergroundCYPro-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/P22UndergroundCYPro-Heavy.woff2') format('woff2'),
+        url('../fonts/P22UndergroundCYPro-Heavy.woff') format('woff'),
+        url('../fonts/P22UndergroundCYPro-Heavy.ttf') format('truetype'),
+        url('../fonts/P22UndergroundCYPro-Heavy.svg#P22UndergroundCYPro-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'P22 Underground CY Pro';
+    src: url('../fonts/P22UndergroundCYPro-Medium.eot');
+    src: url('../fonts/P22UndergroundCYPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/P22UndergroundCYPro-Medium.woff2') format('woff2'),
+        url('../fonts/P22UndergroundCYPro-Medium.woff') format('woff'),
+        url('../fonts/P22UndergroundCYPro-Medium.ttf') format('truetype'),
+        url('../fonts/P22UndergroundCYPro-Medium.svg#P22UndergroundCYPro-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'P22 Underground CY Pro';
+    src: url('../fonts/P22UndergroundCYPro-Thin.eot');
+    src: url('../fonts/P22UndergroundCYPro-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/P22UndergroundCYPro-Thin.woff2') format('woff2'),
+        url('../fonts/P22UndergroundCYPro-Thin.woff') format('woff'),
+        url('../fonts/P22UndergroundCYPro-Thin.ttf') format('truetype'),
+        url('../fonts/P22UndergroundCYPro-Thin.svg#P22UndergroundCYPro-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'P22 Underground CY Pro';
+    src: url('../fonts/P22UndergroundCYPro-Demi.eot');
+    src: url('../fonts/P22UndergroundCYPro-Demi.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/P22UndergroundCYPro-Demi.woff2') format('woff2'),
+        url('../fonts/P22UndergroundCYPro-Demi.woff') format('woff'),
+        url('../fonts/P22UndergroundCYPro-Demi.ttf') format('truetype'),
+        url('../fonts/P22UndergroundCYPro-Demi.svg#P22UndergroundCYPro-Demi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'P22 Underground CY Pro';
+	margin: 0;
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+}
+.bg {
+	background-image: 
+}
+.row-1 {
+	margin-top: 45px;
+}
+.logo-block {
+	display: flex;
+	color: #fff;
+}
+.logo-block img {
+	width: 70px;
+	height: 40px;
+}
+.logo-block p {
+	margin: 0;
+	margin-left: 15px;
+}
+.logo-block span {
+	font-size: 12px;
+	font-weight: 100;
+}
+.phone-block {
+	color: #fff;
+	display: flex;
+}
+.phone-btn {
+	cursor: pointer;
+	text-align: center;
+	margin: 0;
+	width: 160px;
+	padding: 13px 0;
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+.phone-number {
+	margin: 0;
+	font-size: 20px;
+	font-weight: 900;
+	padding-top: 10px;
+	margin-left: 40px;
+} 
+.header-text {
+	text-align: center;
+	font-size: 38px;
+	color: #ffff33;
+	font-weight: 900;
+}
+.row-2 {
+	padding-top: 45px;
+}
+.main-terms {
+	width: 500px;
+	height: 410px;
+	padding-left: 50px;
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: #fff;
+	font-weight: bold;
+	margin-left: 200px;
+}
+.main-terms p {
+	position: relative;
+	margin: 0;
+	margin-bottom: 15px;
+	font-size: 17px;
+}
+.main-terms p::before {
+	content: "";
+	position: absolute;
+	background-image: url(../img/arrow.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 7px;
+	height: 13px;
+	left: -19px;
+	top: 3px; 
+}
+.form {
+	margin-top: 35px;
+	text-align: center;
+	width: 420px;
+	height: 410px;
+	background-color: #fff;
+	border-radius: 4px;
+}
+.form-advice {
+	margin-top: 35px;
+	margin-bottom: 25px;
+	font-size: 19px;
+}
+.form input {
+	padding-left: 15px;
+	margin-top: 14px;
+	width: 250px;
+	max-height: 53px;
+	border: 1px solid grey; 
+}
+input:focus {
+	color: black;
+	border-color: rgba(0,0,0, 0.6);
+}
+.name-wrap {
+	display: flex;
+	margin-left: 35px;
+}
+.name {
+	margin-bottom: 5px;
+	background-color: #333333;
+	background-image: url(../img/login.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 55px;
+	height: 53px;
+}
+.phone-wrap {
+	display: flex;
+	margin-left: 35px;
+}
+.phone {	
+	background-color: #333333;
+	background-image: url(../img/phone.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 55px;
+	height: 53px;
+}
+.btn {
+	width: 305px;
+	padding: 15px 0;
+	background-color: #ffff33;
+	margin-left: 35px;
+	font-size: 16px;
+	border-radius: 4px;
+	box-shadow: 0 3px 0 #999900;
+	cursor: pointer;
+}
+.picture {
+	position: absolute;
+	left: 40%;
+	top: 665px;
+	width: 260px;
+}
+.row-3 {
+	margin-top: 180px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	text-align: center;
+}
+.wrap {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.row-condition {
+	margin-bottom: 60px;
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.phone-block {
+		padding-left: 155px;
+	}
+	.phone-btn {
+	width: 140px;
+	padding: 10px 0;
+	}
+	.phone-number {
+		margin-left: 5px;
+		font-size: 14px;
+	}
+	.header-text {
+		font-size: 30px;
+	}
+	.main-terms {
+		margin-left: 50px;
+	}
+	.form {
+		margin-left: 200px;
+	}
+	.row-3 {
+		justify-content: center;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.logo-block {
+		justify-content: center;
+		margin-bottom: 50px;
+	}
+	.logo-block img {
+	width: 80px;
+	height: 50px;
+}
+.logo-block p {
+	font-size: 18px;
+}
+	.phone-block {
+		justify-content: center;
+	}
+	.phone-number {
+		margin-left: 15px;
+	}
+	.phone-btn {
+		font-size: 18px;
+	}
+	.header-text {
+		font-size: 30px;
+	}
+	.main-terms {
+		margin-left: 10px;
+		width: 343px;		
+	}
+	.main-terms p {
+		font-size: 14px;		
+	}
+	.form {
+	margin-left: 120px;
+	margin-top: 15px;
+	text-align: center;
+	width: 320px;
+	height: 310px;
+	background-color: #fff;
+	border-radius: 4px;
+}
+.form-advice {
+	margin-top: 44px;
+	margin-bottom: 15px;
+	font-size: 15px;
+}
+.form input {
+	padding-left: 10px;
+	margin-top: 14px;
+	width: 150px;
+	max-height: 33px;
+}
+
+.name-wrap {
+	display: flex;
+	margin-left: 55px;
+}
+.name {
+	width: 35px;
+	height: 33px;
+}
+.phone-wrap {
+	display: flex;
+	margin-left: 55px;
+}
+.phone {	
+	width: 35px;
+	height: 33px;
+}
+.btn {
+	width: 185px;
+	padding: 11px 0;	
+	margin-left: 55px;
+	font-size: 13px;	
+}
+.picture {
+	position: absolute;
+	left: 36%;
+	top: 683px;
+	width: 160px;
+}
+.row-3 {
+	margin-top: 54px;
+}
+}
+@media (min-width: 320px) and (max-width: 767px) {
+	.row-1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.phone-block {
+	width: 100%;
+}
+.phone-btn {
+	margin-left:10px;
+}
+.phone-number {
+	font-size: 15px;
+	margin-left: 10px;	
+}
+.header-text {
+	display: none;
+}
+.main-terms {
+	display: none;
+}
+.form {
+	padding-top: 10px;
+	margin-left: 13px;
+	margin-top: 30px;
+	text-align: center;
+	width: 429px;
+	height: 410px;
+	background-color: #fff;
+	border-radius: 4px;
+}
+.picture {
+	display: none;
+}
+.wrap {
+	flex-wrap: wrap;
+}
+}
