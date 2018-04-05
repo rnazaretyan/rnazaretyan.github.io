@@ -363,15 +363,61 @@ input:focus {
 	display: none;
 }
 .form {
-	padding-top: 10px;
-	
+	padding-top: 10px;	
 	margin-top: 30px;
 	text-align: center;
-	width: 420px;
+	width: 60%;
 	height: 410px;
 	background-color: #fff;
 	border-radius: 4px;
 }
+.form-advice {
+	margin-top: 35px;
+	margin-bottom: 25px;
+	font-size: 15px;
+}
+.form input {	
+	margin-top: 14px;
+	width: 70%;
+	max-height: 43px;
+	border: 1px solid grey; 
+}
+.name-wrap {
+	display: flex;
+	margin-left: 35px;
+}
+.name {
+	margin-bottom: 5px;
+	background-color: #333333;
+	background-image: url(../img/login.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 45px;
+	height: 43px;
+}
+.phone-wrap {
+	display: flex;
+	margin-left: 35px;
+}
+.phone {	
+	background-color: #333333;
+	background-image: url(../img/phone.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 45px;
+	height: 43px;
+}
+.btn {
+	width: 80%;
+	padding: 15px 0;
+	background-color: #ffff33;
+	margin-left: 35px;
+	font-size: 14px;
+	border-radius: 4px;
+	box-shadow: 0 3px 0 #999900;
+	cursor: pointer;
+}
+
 .picture {
 	display: none;
 }
