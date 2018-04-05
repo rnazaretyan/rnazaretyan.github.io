@@ -62,14 +62,13 @@
 	box-sizing: border-box;
 }
 body {
+
 	font-family: 'P22 Underground CY Pro';
 	margin: 0;
 	background-image: url(../img/bg.jpg);
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;	
 }
-.bg {
-	background-image: 
-}
+
 .row-1 {
 	margin-top: 45px;
 }
@@ -340,17 +339,19 @@ input:focus {
 }
 }
 @media (min-width: 320px) and (max-width: 767px) {
+	body {
+		width: 100vw;
+	}
 	.row-1 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
-.phone-block {
-	width: 100%;
+.row-2 {
+	display: flex;
+	justify-content: center;
 }
-.phone-btn {
-	margin-left:10px;
-}
+
 .phone-number {
 	font-size: 15px;
 	margin-left: 10px;	
@@ -363,10 +364,10 @@ input:focus {
 }
 .form {
 	padding-top: 10px;
-	margin-left: 13px;
+	
 	margin-top: 30px;
 	text-align: center;
-	width: 429px;
+	width: 420px;
 	height: 410px;
 	background-color: #fff;
 	border-radius: 4px;
