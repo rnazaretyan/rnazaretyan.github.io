@@ -113,6 +113,7 @@ body {
 	font-size: 38px;
 	color: #ffff33;
 	font-weight: 900;
+	margin: 0;
 }
 .row-2 {
 	padding-top: 45px;
@@ -339,19 +340,21 @@ input:focus {
 }
 }
 @media (min-width: 320px) and (max-width: 767px) {
-	body {
-		width: 100vw;
-	}
-	.row-1 {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
+	
+
 .row-2 {
 	display: flex;
 	justify-content: center;
 }
-
+.logo-block {
+	justify-content: center;
+	width: 100%;
+}
+.phone-block {
+	margin-top: 20px;
+	justify-content: center;
+	width: 100%;
+}
 .phone-number {
 	font-size: 15px;
 	margin-left: 10px;	
