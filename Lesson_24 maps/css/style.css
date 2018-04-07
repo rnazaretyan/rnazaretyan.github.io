@@ -1,0 +1,68 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+.form {
+	position: fixed;
+	width: 510px;
+	height: 470px;
+	background-color: #4d59a1;
+	top: 10px;
+	left: 1100px;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.contact {
+	color: #fff;
+	font-size: 45px;
+	font-weight: 900;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.container {
+	width: 75%;		
+}
+.form-items {
+	padding: 15px 15px;
+	border-radius: 5px;
+	border: none;
+	font-style: italic;
+}
+.email {
+	width: 100%;
+	margin-bottom: 15px;
+}
+.email-form {
+	width: 100%;
+}
+.text {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+.text-form {
+	width: 	48%;
+}
+.msg {
+	width: 100%;
+}
+.msg-form {
+	width: 100%;
+	padding: 15px 15px;
+}
+.btn {
+	cursor: pointer;
+	color: #fff;
+	background-color: #c3f37f;
+	width: 40%;
+	text-align: center;
+	padding: 20px 0;
+	border-radius: 25px;
+}
