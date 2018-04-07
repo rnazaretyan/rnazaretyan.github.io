@@ -1,6 +1,6 @@
- <?php
+<?php
 //Принимаем постовые данные
- $whatever=$_POST['whatever'];
+$whatever=$_POST['whatever'];
 $name=$_POST['name'];
 $email=$_POST['email'];
 $password=$_POST['password'];
@@ -14,7 +14,7 @@ $message = "
 Форма клиента: ".htmlspecialchars($whatever)."<br />
 Имя пользователя: ".htmlspecialchars($name)."<br />
 Email: ".htmlspecialchars($email)."<br>
-Пароль:".htmlspecialchars($password);
+Пароль: ".htmlspecialchars($password);
 
 // Отправляем письмо при помощи функции mail();
 $headers = "From: work.sl <mail@stastroi.ru>\r\nContent-type: text/html; charset=UTF-8 \r\n";
