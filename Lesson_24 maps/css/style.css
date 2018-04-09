@@ -7,12 +7,12 @@ body {
 }
 
 .form {
-	position: fixed;
+	position: absolute;
 	width: 510px;
 	height: 470px;
 	background-color: #4d59a1;
-	top: 10px;
-	left: 1100px;
+	top: 2%;
+	right: 3%;
 }
 form {
 	display: flex;
